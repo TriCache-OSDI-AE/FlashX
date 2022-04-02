@@ -1,2 +1,34 @@
 # change FG_TOP to the location of the top directory of FlashGraph.
-0:FG_TOP/flash-graph/data
+# 0:FG_TOP/flash-graph/data
+3:/mnt/ssd0/FlashGraph
+3:/mnt/ssd1/FlashGraph
+2:/mnt/ssd2/FlashGraph
+2:/mnt/ssd3/FlashGraph
+2:/mnt/ssd4/FlashGraph
+2:/mnt/ssd5/FlashGraph
+5:/mnt/ssd6/FlashGraph
+5:/mnt/ssd7/FlashGraph
+5:/mnt/ssd8/FlashGraph
+5:/mnt/ssd9/FlashGraph
+7:/mnt/ssd10/FlashGraph
+7:/mnt/ssd11/FlashGraph
+7:/mnt/ssd12/FlashGraph
+7:/mnt/ssd13/FlashGraph
+6:/mnt/ssd14/FlashGraph
+6:/mnt/ssd15/FlashGraph
+# 0:/mnt/ssd0/FlashGraph
+# 0:/mnt/ssd1/FlashGraph
+# 1:/mnt/ssd2/FlashGraph
+# 1:/mnt/ssd3/FlashGraph
+# 2:/mnt/ssd4/FlashGraph
+# 2:/mnt/ssd5/FlashGraph
+# 3:/mnt/ssd6/FlashGraph
+# 3:/mnt/ssd7/FlashGraph
+# 4:/mnt/ssd8/FlashGraph
+# 4:/mnt/ssd9/FlashGraph
+# 5:/mnt/ssd10/FlashGraph
+# 5:/mnt/ssd11/FlashGraph
+# 6:/mnt/ssd12/FlashGraph
+# 6:/mnt/ssd13/FlashGraph
+# 7:/mnt/ssd14/FlashGraph
+# 7:/mnt/ssd15/FlashGraph

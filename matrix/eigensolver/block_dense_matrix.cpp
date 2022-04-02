@@ -17,7 +17,11 @@
  * limitations under the License.
  */
 
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
+
 
 #include "block_dense_matrix.h"
 #include "dotp_matrix_store.h"

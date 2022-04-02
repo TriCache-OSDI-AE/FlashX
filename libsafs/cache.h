@@ -673,6 +673,11 @@ public:
 			return *this;
 		}
 
+		const_iterator<T> &operator--() {
+			off -= sizeof(T);
+			return *this;
+		}
+
 		/**
 		 * Test whether the current iterator is the same as
 		 * the other iterator.

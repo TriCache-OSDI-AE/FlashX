@@ -223,6 +223,11 @@ public:
 			return *this;
 		}
 
+		id_iterator &operator--() {
+			it--;
+			return *this;
+		}
+
 		id_iterator operator++(int) {
 			id_iterator ret = *this;
 			it++;

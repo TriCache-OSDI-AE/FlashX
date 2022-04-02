@@ -17,7 +17,10 @@
  * limitations under the License.
  */
 
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 
 #include "log.h"
 

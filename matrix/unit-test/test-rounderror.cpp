@@ -1,7 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stddef.h>
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 #include <assert.h>
 #include <string.h>
 

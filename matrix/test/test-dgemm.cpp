@@ -9,7 +9,10 @@
 #define MKL_INT size_t
 #include <mkl.h>
 #else
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 #endif
 
 size_t num_repeats = 1;

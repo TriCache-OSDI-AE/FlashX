@@ -1,6 +1,6 @@
 project (FlashGraph)
 
-link_directories (${PROJECT_BINARY_DIR}/libsafs) 
+link_directories (${PROJECT_BINARY_DIR}/libsafs)
 
 add_executable(SAFS-util SAFS-util.cpp)
 

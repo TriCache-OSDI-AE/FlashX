@@ -21,7 +21,10 @@
 
 #include <immintrin.h>
 
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 
 #include "local_matrix_store.h"
 #include "bulk_operate.h"

@@ -1,5 +1,8 @@
 #include <stdio.h>
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 
 #include "vector.h"
 #include "mem_worker_thread.h"

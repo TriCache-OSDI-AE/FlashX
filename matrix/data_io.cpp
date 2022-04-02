@@ -17,6 +17,7 @@
  * limitations under the License.
  */
 
+#include <memory>
 #ifdef USE_GZIP
 #include <zlib.h>
 #endif
@@ -275,7 +276,7 @@ std::shared_ptr<char> gz_file_io::read_bytes(
 		if (ret <= 0) {
 			if (ret < 0 || !gzeof(f)) {
 				BOOST_LOG_TRIVIAL(fatal) << gzerror(f, &ret);
-				return std::unique_ptr<char[]>();
+				return std::shared_ptr<char>();
 			}
 		}
 		read_bytes += ret;

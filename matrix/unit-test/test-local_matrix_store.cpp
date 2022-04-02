@@ -1,4 +1,7 @@
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 
 #include "bulk_operate.h"
 #include "local_matrix_store.h"

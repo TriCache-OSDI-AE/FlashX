@@ -1,4 +1,7 @@
-#include <cblas.h>
+extern "C"
+{
+    #include <cblas.h>
+}
 #include <set>
 
 #include "bulk_operate.h"
